@@ -1,7 +1,7 @@
 #! /bin/bash
 # numbers.sh 
 #Mica Marietta
-echo "Give me a positive number"
+echo "Input a positive number"
 read number
 N=1
 while [ $N -le $number ]
@@ -14,4 +14,4 @@ while [ $N -le $number ]
 		fi
 		N+$((N+1))
 	done
-echo "Thank you"
+echo "Thank you!"
